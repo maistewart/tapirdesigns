@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tapir Designs</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<!--<div class="header">-->
+<header>
+    <div id="headerback">
+        <div class="brand">
+            <div class="inf">
+                <img  id="phone" src="img/phone.png">
+                <a href="#"><p  id="numb">(201) 953-0625</p></a>
+            </div>
+            <a class="inf" id="fb" href="#"><img src="img/FB-f-Logo__white_29.png"></a>
+            <a class="inf" id="tweet" href="#"><img src="img/twitterlogo.png"></a>
+        </div>
+    </div>
+    <div id="headclear">    </div>
+    <div id="logohold">
+        <img id="headerpic" src="img/banner.png">
+    </div>
+
+    <div class="moveup" id="bannerclear">
+        <img id="bann" src="img/banner2.png">
+    </div>
+
+    <div class="moveup" id="links">
+        <ul class="nav">
+            <li><a href="#" class="first" id="contact"><p class="link"><br>Contact</p></a></li>
+            <li><a href="#" class="mult" id="services"><p class="link"><br>Services</p></a></li>
+            <li><a href="#" class="mult" id="people"><p class="link"><br>Portfolio</p></a></li>
+        </ul>
+    </div>
+<!--</div>-->
+
+</header>
+<div class="container">
+    <div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 56px;">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/blue.jpg" alt="blue" /></li>
+            <li><img src="images/tree.jpg" alt="tree" /></li>
+        </ul>
+        <ul class="amazingslider-thumbnails" style="display:none;">
+            <li><img src="images/blue-tn.jpg" /></li>
+            <li><img src="images/tree-tn.jpg" /></li>
+        </ul>
+        <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com" title="Responsive JavaScript Image Slideshow">Responsive JavaScript Image Slideshow</a></div>
+    </div>
+</div>
+
+<div class="holder">
+
+    <a href="#content"><div id="buttonback"><img id="button" src="img/buttonorig.png"></div></a>
+
+<div class="content" id="content">
+    <div class="steps" id="holder">
+        <div class="step" id="hold1">
+            <img class="stp" id="step1" src="img/step1blue.png">
+            <p class="serv" id="serv1">PLAN</p>
+        </div>
+        <div class="step" id="hold2">
+            <img class="stp" id="step2" src="img/step2blue.png">
+            <p class="serv" id="serv2">DESIGN</p>
+        </div>
+        <div class="step" id="hold3">
+            <img class="stp" id="step3" src="img/step3blue.png">
+            <p class="serv" id="serv3">DEVELOP</p>
+        </div>
+        <div class="step" id="hold4">
+            <img class="stp" id="step4" src="img/step4blue.png">
+            <p class="serv" id="serv4">LAUNCH</p>
+        </div>
+    </div>
+</div> <!-- end div.content -->
+
+    <div class="circle" id="circle">
+    </div>
+</div> <!-- end div.holder -->
+
+<
+
+
+
+
+  <!--  <script>
+        $(document).ready(function(){
+           $(window).scroll(function(){
+               var value= $(this).scrollTop();
+               if (value>60) {
+                   $("header").stop().animate({height:50},800);
+                   $(".moveup").stop().animate({top:0},800);
+                   $("#headclear").stop().animate({height:50},800);
+                   $("#headerback").slideUp("slow");
+                   $("#logohold").slideUp("slow");
+               }
+
+               else {
+                   $("header").stop().animate({height:120},"slow");
+                   $(".moveup").stop().animate({top:70},"slow");
+                   $("#headclear").stop().animate({height:120},"slow");
+                   $("#headerback").slideDown("slow");
+                   $("#logohold").slideDown("slow");
+                }
+           });
+            /*$("#headclear").click(function(){
+                $("#headclear").animate({top:0},200);
+            });*/
+           /* $("#links").click(function(){
+                $("#links")
+            })*/
+        });
+
+    </script> -->
+</body>
+<script src="scripts/jquery-1.6.2.min.js"></script>
+<script src="index.js"></script>
+<script src="sliderengine/jquery.js"></script>
+<script src="sliderengine/amazingslider.js"></script>
+<script src="sliderengine/initslider-1.js"></script>
+</html>

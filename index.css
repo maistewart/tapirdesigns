@@ -1,0 +1,275 @@
+body {
+    /*background-image: url(img/backtile.jpg;)*/
+    background-image: url(img/carbon_fibre.png);
+    /*background-color: white;*/
+}
+/* background source: https://www.flickr.com/photos/webtreatsetc/5395702392/in/photostream/*/
+div.header {
+    position:fixed;
+
+}
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    height:120px;
+    width:100%;
+    -webkit-box-shadow: 6px 6px 6px #0C0C0C;
+    -moz-box-shadow:  6px 6px 6px #0C0C0C;
+    box-shadow:  6px 6px 6px #0C0C0C;
+    z-index:2;
+}
+div#headerback {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background-color: #1D3956;
+    -webkit-box-shadow: 6px 6px 6px #292929;
+    -moz-box-shadow:  6px 6px #292929;
+    box-shadow:  6px 6px 6px #292929;
+    z-index:5;
+}
+
+div#headclear {
+    position:fixed;
+    top:0;
+    left:0;
+    height:120px;
+    width:100%;
+    background-color:gray;
+    opacity:0.5;
+    z-index:3;
+}
+
+div#logohold {
+    position:fixed;
+    width: 450px;
+    height:120px;
+    top:0;
+    left:0;
+    /*border-top-right-radius: 1em;*/
+    border-bottom-right-radius: 4em;
+    background-color: #1D3956;
+   -webkit-box-shadow: 6px 0px 6px #292929;
+    -moz-box-shadow:  6px 0px 6px #292929;
+    box-shadow:  6px 0px 6px #0C0C0C;
+    z-index:6;
+}
+
+
+
+
+img#headerpic {
+    margin-top: 25px;
+    float:left;
+}
+div#bannerclear {
+    position:absolute;
+    float:left;
+    z-index:4;
+    top:70px;
+    height:50px;
+    width:268px;
+}
+div#links {
+    position: absolute;
+    z-index:4;
+    top:70px;
+    right:0;
+    width:420px;
+    height:50px;
+}
+ul.nav {
+    /*position:relative;*/
+    list-style: none;
+    display:block;
+    margin: 0;
+    /*top:60px;
+    right:0;*/
+}
+
+ul.nav li {
+    float:right;
+}
+
+ul.nav li a {
+    text-decoration: none;
+    display: block;
+}
+ul li a.first {
+    margin-right: 30px;
+    margin-left:15px;
+}
+
+ul li a.mult {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+p.link {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.1em;
+    color: lightgray;
+    padding-top: 0;
+    margin-top: 0;
+    /*height:20px;
+    padding-bottom: 5px;*/
+}
+
+p.link:hover {
+    color:white;
+
+}
+
+div.container {
+    width:800px;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:160px;
+}
+div.holder{
+    position:absolute;
+    top:80px;
+    z-index:1;
+}
+div#content{
+     position: absolute;
+     height:500px;
+     width:1332px;
+     background-image: url(img/blackorchid.png);
+     left: 0;
+     top:500px;
+    /*-webkit-box-shadow: 6px -6px 6px #0C0C0C;
+    -moz-box-shadow:  6px -6px 6px #0C0C0C;
+    box-shadow:  6px -6px 6px #0C0C0C;*/
+ }
+
+div#circle {
+    position:absolute;
+    height:100px;
+    width: 200px;
+    background-image: url(img/carbon_fibre.png);
+    top:500px;
+    left:553px;
+    border-bottom-right-radius: 6em;
+    border-bottom-left-radius: 6em;
+    -webkit-box-shadow:inset 0px 6px 6px #0C0C0C;
+    -moz-box-shadow: inset 0px 6px 6px #0C0C0C;
+    box-shadow: inset 6px -6px 6px #0C0C0C;
+}
+
+div#buttonback {
+    position:absolute;
+    top:430px;
+    left:580px;
+    bottom:-10px;
+    height:150px;
+    width:150px;
+    background-image: url(img/blackorchid.png);
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 4.5em;
+    z-index:1;
+    -webkit-box-shadow: 6px 6px 6px #0C0C0C;
+    -moz-box-shadow:  6px 6px 6px #0C0C0C;
+    box-shadow:  6px 6px 6px black;
+}
+
+div#buttonback:hover {
+    -webkit-box-shadow: 0px 0px 0px #0C0C0C;
+    -moz-box-shadow:  0px 0px 0px #0C0C0C;
+    box-shadow: inset 6px 6px 6px black;
+}
+
+img#button {
+    margin-top:35px;
+    margin-left: 25px;
+}
+div.brand {
+    float:right;
+    margin-top: 15px;
+    width:270px;
+}
+img#phone {
+    float:left;
+    margin-top: 2px;
+    padding-right:5px;
+}
+
+p#numb {
+    position:relative;
+    bottom: 3px;
+    float:left;
+    color:white;
+    padding-right: 20px;
+    margin-bottom: 3px;
+}
+a#fb {
+    float:left;
+    margin-top:5px;
+}
+
+a#tweet {
+    float:left;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+.inf {
+    opacity:0.5;
+}
+
+.inf:hover {
+    opacity:1;
+}
+ p{
+     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ }
+
+div.steps {
+    width:1200px;
+    height:250px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1em;
+    margin-top: 160px;
+}
+
+div.step {
+    float:left;
+    margin-right: 20px;
+    margin-left:20px;
+    margin-top:10px;
+    width:250px;
+    height:300px;
+    background-image:url(img/carbon_fibre.png);
+    border-radius: 2em;
+    -webkit-box-shadow: inset 6px 6px 6px #0C0C0C;
+    -moz-box-shadow: inset 6px 6px 6px #0C0C0C;
+    box-shadow: inset 6px 6px 6px black;
+
+}
+
+img.stp {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    opacity:1;
+}
+
+p.serv {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    color: black;
+}
+
+
+div.des {
+    margin-top: 100px;
+    clear:left;
+}
