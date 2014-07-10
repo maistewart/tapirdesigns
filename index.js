@@ -19,12 +19,13 @@ function buttonout() {
 $(document).ready(function(){
     $(window).scroll(function(){
         var value= $(this).scrollTop();
-        if (value>60) {
-            $("header").stop().animate({height:50},800);
+        if (value>100) {
+            $("header").stop().animate({height:70},800);
             $(".moveup").stop().animate({top:0},800);
-            $("#headclear").stop().animate({height:50},800);
+            $("#headclear").stop().animate({height:70},800);
             $("#headerback").slideUp("slow");
             $("#logohold").slideUp("slow");
+            /*$("#bannerclear").stop().fadeIn(800);*/
         }
 
         else {
@@ -33,14 +34,11 @@ $(document).ready(function(){
             $("#headclear").stop().animate({height:120},"slow");
             $("#headerback").slideDown("slow");
             $("#logohold").slideDown("slow");
+            /*$("#bannerclear").stop().fadeOut(800);*/
+
         }
     });
-    /*$("#headclear").click(function(){
-     $("#headclear").animate({top:0},200);
-     });*/
-    /* $("#links").click(function(){
-     $("#links")
-     })*/
+
 });
 /**
  * Created by Mai on 7/6/2014.
